@@ -1,16 +1,22 @@
-import './App.css';
-import React from 'react'; 
-import Navbar from './components/Navbar'
-import { BrowserRouter } from 'react-router-dom'
-import HeroSection from './components/HeroSection'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from "react";
+import About from "./components/About.js";
+import Navigationbar from "./components/Navbar";
+import HeroPage from "./components/HeroSection";
 function App() {
   return (
-    <>
-    <BrowserRouter>
-        <Navbar/>
-        <HeroSection/>
-     </BrowserRouter>
-    </>
+    <div className="App">
+      <Router>
+        <Navigationbar />
+        <Routes>
+          <Route index element={<HeroPage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/main-menu" element={<HeroPage />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 

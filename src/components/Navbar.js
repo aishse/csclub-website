@@ -1,49 +1,41 @@
-import React, { useState } from "react";
+import { Nav, Navbar, NavLink } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-function Navbar() {
+const Navigationbar = () => {
   return (
-    <>
-      <nav class="navbar navbar-static-top navbar-expand-lg navbar-light fixed-top ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./logoOrg.png" class="img-fluid float-left " alt="logo" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  About Us
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Events
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Our Partners
-                </a>
-              </li>
-             
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </>
-  );
-}
+    <Navbar fixed="top" collapseOnSelect className="nav" expand="sm">
+      <Navbar.Brand>
+        <NavLink
+          className="home-button fixed-position"
+          as={Link}
+          to="/main-menu"
+          exact={true}
+          end
+        >
+          <img src="./logoOrg.png" alt="cs club logo" />
+        </NavLink>
+      </Navbar.Brand>
 
-export default Navbar;
+      <Navbar.Toggle
+        aria-controls="navbarScroll"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarScroll"
+        className="nav-menu ms-auto"
+      />
+
+      <Navbar.Collapse id="navbarScroll">
+        <Nav className="nav-item ms-auto">
+          <NavLink className="nav-item" eventKey="1" as={Link} to="/about">
+            About
+          </NavLink>
+
+          <NavLink className="nav-item" eventKey="2" as={Link} to="/contact">
+            Contact
+          </NavLink>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+  );
+};
+
+export default Navigationbar;
