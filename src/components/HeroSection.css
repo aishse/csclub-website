@@ -16,8 +16,7 @@ body, html {
    
     height: 100vh;
     width: 100vw;
-    min-height:110vh !important;
-    min-width:110vw !important;
+    
 
     background-image: url(/public/binarybckgrd.png) ;
     background-position: center;
@@ -39,12 +38,13 @@ body, html {
 .join-button {
     background-color: #93C3DE;
     border-color: transparent;
-    width: 50%; 
-    height: 40%;
+    width: 15vw; 
+    height: auto;
     border-radius: 60px;
     font-family: "Roboto", serif;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2vw;
+    padding: 0.5vw;
     color: white;
     
 }
@@ -59,7 +59,7 @@ body, html {
     
     font-family: "Roboto";
     width: 30vw;
-    height: 0vh;
+    height: auto;
     text-align: left;
   
 
@@ -67,15 +67,16 @@ body, html {
   }
 .title {
     color: #93C3DE;
-    font-size: 4rem;
+    font-size: 5vw;
     
 }
 
 .image-container {
     position: relative;
     float: right;
-    margin-right: 20vw;
+    margin-right: 10vw;
     margin-top: 20vh;
+    
     background-color: transparent;
 }
 .club-image {
@@ -83,7 +84,7 @@ body, html {
     height: auto;
     border-radius: 30px;
     border-style: solid;
-    border-width: 10px;
+    border-width: 1vw;
     border-color: #ffffff;
 
 }
@@ -91,11 +92,11 @@ body, html {
 .larger-descript {
     color: #93C3DE;
  
-    font-size: 2rem;
+    font-size: 2vw;
 
 }
 
 .smaller-descript {
     color: #93C3DE;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }

@@ -32,6 +32,9 @@ const Navigationbar = () => {
           <NavLink className="nav-item" eventKey="2" as={Link} to="/contact">
             Contact
           </NavLink>
+          <NavLink className="nav-item" eventKey="3" as={Link} to="/events">
+            Events
+          </NavLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
