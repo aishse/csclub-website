@@ -25,20 +25,21 @@ body, html {
  
 }
 .button-container {
-    margin-right: -50px;
+   
 }
 .icon {
     object-fit: contain;
     width: 16%; 
     height: auto;
     padding-right: 2%;
+    margin-right: 2%;
     float: right;
    
 }
 .join-button {
     background-color: #93C3DE;
     border-color: transparent;
-    width: 15vw; 
+    width: 12vw; 
     height: auto;
     border-radius: 60px;
     font-family: "Roboto", serif;

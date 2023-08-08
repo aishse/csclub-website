@@ -23,13 +23,13 @@ function HeroSection() {
               <button class="join-button">Join Us!</button>
             </a>
             <a class="" href="#">
-              <img src="logo192.png" class="icon" alt="element" />
+              <img src="discord-logo.png" class="icon" alt="element" />
             </a>
             <a class="" href="#">
-              <img src="logo192.png" class="icon" alt="element" />
+              <img src="fb-logo.png" class="icon" alt="element" />
             </a>
             <a class="" href="#">
-              <img src="logo192.png" className="icon" alt="element" />
+              <img src="insta-logo.png" className="icon" alt="element" />
             </a>
           </div>
         </div>
