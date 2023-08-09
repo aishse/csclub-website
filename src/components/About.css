@@ -1,3 +1,40 @@
 .About {
     background-color: blue;
   }
+.About-Container{
+  margin-top: 15%;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1{
+  font-size: 3vw;
+  font-weight: 650;
+}
+
+/* .centerV{
+  margin-left: auto;
+  margin-right: auto;
+} */
+.second-half{
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-image{
+  border-width: 15px;
+  border-style: solid;
+  background: linear-gradient(white, white) padding-box,
+  linear-gradient(to bottom, darkblue, darkorchid) border-box;
+  transform: rotateZ(45deg);
+  border-radius: 15%;
+  width: 250px;
+  height: 250px;
+}
+
+/* .introText{
+  padding-top: 1.5;
+  display: inline-block;
+} */
