@@ -12,7 +12,7 @@ const Navigationbar = () => {
           exact={true}
           end
         >
-          <img src="./logoOrg.png" alt="cs club logo" />
+          <img src="./csclub.svg" className="main-logo" alt="cs club logo" />
         </NavLink>
       </Navbar.Brand>
 
