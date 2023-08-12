@@ -1,4 +1,8 @@
 import "./HeroSection.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 function HeroSection() {
   return (
     <>
@@ -13,28 +17,32 @@ function HeroSection() {
           <p className="smaller-descript">
             Join us for technical workshops, interview prep, and more fun stuff!{" "}
           </p>
-
           <div className="button-container">
             <a
-              class=""
+              className=""
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               target="_blank"
             >
-              <button class="join-button">Join Us!</button>
+              <button className="join-button">Join Us!</button>
             </a>
-            <a class="" href="#">
+            <a className="" href="#">
               <img src="discord-logo.png" class="icon" alt="element" />
             </a>
-            <a class="" href="#">
+            <a className="" href="#">
               <img src="fb-logo.png" class="icon" alt="element" />
             </a>
-            <a class="" href="#">
+            <a className="" href="#">
               <img src="insta-logo.png" className="icon" alt="element" />
             </a>
           </div>
         </div>
+
         <div className="image-container">
-          <img src="placeholder.jpg" class="club-image" alt="club-activities" />
+          <img
+            src="placeholder.jpg"
+            className="club-image"
+            alt="club-activities"
+          />
         </div>
       </div>
     </>

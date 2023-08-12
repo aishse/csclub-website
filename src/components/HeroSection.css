@@ -25,8 +25,20 @@ body, html {
  
 }
 .button-container {
-   
+   position: absolute;
+
+   float: left;
 }
+
+.location-container {
+    background-color: red;
+    display: flex;
+
+  
+    
+}
+
+
 .icon {
     object-fit: contain;
     width: 16%; 
@@ -42,8 +54,7 @@ body, html {
     width: 12vw; 
     height: auto;
     border-radius: 60px;
-    font-family: "Roboto", serif;
-    font-weight: 400;
+    font-family: "Inter", serif;
     font-size: 2vw;
     padding: 0.5vw;
     color: white;
@@ -58,7 +69,7 @@ body, html {
     margin-left: 10%;
     top: 20%;
     
-    font-family: "Roboto";
+    font-family: "Inter";
     width: 30vw;
     height: auto;
     text-align: left;
@@ -92,7 +103,7 @@ body, html {
 
 .larger-descript {
     color: #93C3DE;
- 
+    font-family: "Inter", serif;
     font-size: 2vw;
 
 }
@@ -100,4 +111,24 @@ body, html {
 .smaller-descript {
     color: #93C3DE;
     font-size: 1.5vw;
+    font-family: "Inter", serif;
+    text-align: left;
+}
+
+.location-text {
+    color: #93C3DE;
+    font-size: 1.2vw;
+   
+    float: left;
+   
+
+}
+
+
+
+.location-svg {
+
+    float: left;
+    
+   
 }

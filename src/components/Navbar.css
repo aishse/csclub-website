@@ -1,32 +1,37 @@
 .nav {
-    background-color:  #93C3DE;
+  background-color:  #93C3DE;
 
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 .home-button{
 
-  float: left;
-  
-  
+float: left;
+
+
 }
 
 .nav-item {
-  font-family: "Roboto", serif;
-  font-size: 1.5vw;
-
-  margin-right: 10px;
-  color: #216C97 !important;
+font-family: "Inter", serif;
+font-size: 1.1em;
+font-weight: 500;
+margin-right: 10px;
+color: #216C97 !important;
 
 }
-
+.nav-menu {
+  border-color: transparent;
+}
 .nav-items {
 
 }
 
+.main-logo {
+  width: 4em;
+}
 
 
 
- 
 
-  
+
+
