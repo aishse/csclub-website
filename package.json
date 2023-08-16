@@ -2,7 +2,7 @@
   "name": "navbar-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://aishse.github.io/csclub-website",
+  "homepage": "https://aishse.github.io/csclub-website/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
