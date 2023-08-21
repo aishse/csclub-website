@@ -29,10 +29,7 @@ const Navigationbar = () => {
             About
           </NavLink>
 
-          <NavLink className="nav-item" eventKey="2" as={Link} to="/partners">
-            Our Partners
-          </NavLink>
-          <NavLink className="nav-item" eventKey="3" as={Link} to="/events">
+          <NavLink className="nav-item" eventKey="2" as={Link} to="/events">
             Events
           </NavLink>
         </Nav>
