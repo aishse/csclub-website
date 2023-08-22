@@ -61,10 +61,27 @@ body, html {
     
 }
 
+@keyframes fadeIn {
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
+}
+
+@keyframes flyRight {
+    0% { transform: translateX(-100%);}
+    100% { transform: translateX(0%);}
+}
+
+@keyframes flyLeft {
+    0% { transform: translateX(200%);}
+    100% { transform: translateX(0%);}
+}
 
 .text-container {
     
+
     position:absolute;
+    animation: fadeIn 5s; 
+    animation: flyRight 1s;
     float: left;
     margin-left: 10%;
     top: 20%;
@@ -73,8 +90,6 @@ body, html {
     width: 30vw;
     height: auto;
     text-align: left;
-  
-
     background-color: transparent;
   }
 .title {
@@ -91,6 +106,13 @@ body, html {
     
     background-color: transparent;
 }
+.scroll-button {
+    padding: none;
+    margin-top: 80vh;
+    float: right;
+    position: relative;
+
+}
 .club-image {
     width: 40vw; 
     height: auto;
@@ -98,16 +120,23 @@ body, html {
     border-style: solid;
     border-width: 1vw;
     border-color: #ffffff;
+    animation: flyLeft 1s;
 
 }
 
 .larger-descript {
+
     color: #93C3DE;
     font-family: "Inter", serif;
     font-size: 2vw;
+    
 
 }
-
+.arrow-img {
+    width: 4vw;
+    height: auto;
+    animation: fadeIn 2s;
+}
 .smaller-descript {
     color: #93C3DE;
     font-size: 1.5vw;
@@ -125,7 +154,12 @@ body, html {
 }
 
 
-
+button {
+    border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
 .location-svg {
 
     float: left;

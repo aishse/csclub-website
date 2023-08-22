@@ -1,10 +1,14 @@
 import "./HeroSection.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+
 import About from "./About";
+import { useRef } from "react";
 
 function HeroSection() {
+  const ref = useRef(null);
+
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       <div className="Hero-container container-fluid px-0 no-padding">
@@ -49,7 +53,6 @@ function HeroSection() {
             </a>
           </div>
         </div>
-
         <div className="image-container">
           <img
             src="placeholder.jpg"
@@ -57,6 +60,20 @@ function HeroSection() {
             alt="club-activities"
           />
         </div>
+        <div className="scroll-button">
+          <button className="" onClick={handleClick}>
+            <img
+              className="arrow-img"
+              src="keyboard_arrow_down.svg"
+              onClick={handleClick}
+              alt="scroll to about page"
+            />
+          </button>
+        </div>
+      </div>
+
+      <div ref={ref} style={{ backgroundColor: "lightblue" }}>
+        <About />
       </div>
     </>
   );

@@ -13,10 +13,17 @@ float: left;
 
 .nav-item {
 font-family: "Inter", serif;
-font-size: 1.1em;
-font-weight: 500;
-margin-right: 10px;
+font-size: 1.3em;
+font-weight: 700;
+margin-right: 20px;
 color: #216C97 !important;
+transition: background-color 0.7s ease-out 10ms
+
+}
+
+.nav-item:hover {
+  background: #FFFF;
+  
 
 }
 .nav-menu {
