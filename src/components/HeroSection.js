@@ -2,6 +2,7 @@ import "./HeroSection.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import About from "./About";
 
 function HeroSection() {
   return (
@@ -20,18 +21,30 @@ function HeroSection() {
           <div className="button-container">
             <a
               className=""
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              href="https://docs.google.com/forms/d/1A3ZfFi99pRlOdFOA2dCz62mhRsvaYjNhZC_olep0aU4/edit"
               target="_blank"
             >
               <button className="join-button">Join Us!</button>
             </a>
-            <a className="" href="#">
+            <a
+              className=""
+              href="https://discord.gg/knZVah9sn8"
+              target="_blank"
+            >
               <img src="discord-logo.png" class="icon" alt="element" />
             </a>
-            <a className="" href="#">
+            <a
+              className=""
+              href="https://www.facebook.com/groups/csclub.sjsu/"
+              target="_blank"
+            >
               <img src="fb-logo.png" class="icon" alt="element" />
             </a>
-            <a className="" href="#">
+            <a
+              className=""
+              href="https://www.instagram.com/sjsucsclub/"
+              target="_blank"
+            >
               <img src="insta-logo.png" className="icon" alt="element" />
             </a>
           </div>
