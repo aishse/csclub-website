@@ -44,7 +44,7 @@ const About = () => {
                 Department at San Jose State University:
               </p>
             </div>
-
+            {/* 
             <div
               className="container-xl mx-auto text-lg-start"
               style={{ paddingTop: "8%" }}
@@ -252,7 +252,7 @@ const About = () => {
                   Carrd
                 </a>
               </Involved>
-            </div>
+            </div> */}
 
             <div className="mx-auto" style={{ width: "50%" }}>
               <h1 className=" mx-auto text-center">Don't Wanna Miss Out?</h1>
@@ -261,11 +261,18 @@ const About = () => {
                 up-to-date with the latest news and events so that you never
                 miss a beat at the computer science club.
               </p>
-              <a href="https://linktr.ee/SJSUCSClub" target="_blank"
-                  rel="noreferrer">
-              <button type="button" class="btn " style={{backgroundColor : "#93C3DE"}}>
-                Show Me
-              </button>
+              <a
+                href="https://linktr.ee/SJSUCSClub"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button
+                  type="button"
+                  class="btn "
+                  style={{ backgroundColor: "#93C3DE" }}
+                >
+                  Show Me
+                </button>
               </a>
             </div>
 
@@ -279,13 +286,13 @@ const About = () => {
                   position="Event Chair"
                   img_src="galitbolotin.png"
                   name="Galit Bolotin"
-                  linkedin= "https://www.linkedin.com/in/gbolotin"
+                  linkedin="https://www.linkedin.com/in/gbolotin"
                 />
                 <Card
                   position="Vice President"
                   img_src="shirleyli.png"
                   name="Shirley Li"
-                  linkedin= "https://www.linkedin.com/in/shirley-shuhua-li"
+                  linkedin="https://www.linkedin.com/in/shirley-shuhua-li"
                 />
                 <Card
                   position="President"
@@ -323,8 +330,12 @@ const About = () => {
           </h1>
           <div className="row justify-content-center mx-auto">
             <div className="col-md-2">
-              <a href="https://www.facebook.com/groups/csclub.sjsu/" className="social-icons" target="_blank"
-                  rel="noreferrer">
+              <a
+                href="https://www.facebook.com/groups/csclub.sjsu/"
+                className="social-icons"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="70"
@@ -349,8 +360,12 @@ const About = () => {
             </div>
 
             <div className="col-md-2">
-              <a href="https://discord.com/invite/4cXE636ax4" className="social-icons" target="_blank"
-                  rel="noreferrer">
+              <a
+                href="https://discord.com/invite/4cXE636ax4"
+                className="social-icons"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="70"
@@ -368,8 +383,12 @@ const About = () => {
             </div>
 
             <div className="col-md-2">
-              <a href="https://www.instagram.com/sjsucsclub/" className="social-icons" target="_blank"
-                  rel="noreferrer">
+              <a
+                href="https://www.instagram.com/sjsucsclub/"
+                className="social-icons"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="70"
