@@ -35,39 +35,27 @@ function HeroSection() {
               href="https://discord.gg/knZVah9sn8"
               target="_blank"
             >
-              <img
-                src="https://aishse.github.io/csclub-website/public/discord-logo.png"
-                class="icon"
-                alt="element"
-              />
+              <img src="discord-logo.png" class="icon" alt="element" />
             </a>
             <a
               className=""
               href="https://www.facebook.com/groups/csclub.sjsu/"
               target="_blank"
             >
-              <img
-                src="https://aishse.github.io/csclub-website/public/fb-logo.png"
-                class="icon"
-                alt="element"
-              />
+              <img src="fb-logo.png" class="icon" alt="element" />
             </a>
             <a
               className=""
               href="https://www.instagram.com/sjsucsclub/"
               target="_blank"
             >
-              <img
-                src="https://aishse.github.io/csclub-website/public/insta-logo.png"
-                className="icon"
-                alt="element"
-              />
+              <img src="insta-logo.png" className="icon" alt="element" />
             </a>
           </div>
         </div>
         <div className="image-container">
           <img
-            src="https://aishse.github.io/csclub-website/public/placeholder.jpg"
+            src="placeholder.jpg"
             className="club-image"
             alt="club-activities"
           />
