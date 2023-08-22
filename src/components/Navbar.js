@@ -24,15 +24,11 @@ const Navigationbar = () => {
       />
 
       <Navbar.Collapse id="navbarScroll">
-        <Nav className="nav-item ms-auto">
+        <Nav className="nav-items ms-auto">
           <NavLink className="nav-item" eventKey="1" as={Link} to="/about">
             About
           </NavLink>
-
-          <NavLink className="nav-item" eventKey="2" as={Link} to="/partners">
-            Our Partners
-          </NavLink>
-          <NavLink className="nav-item" eventKey="3" as={Link} to="/events">
+          <NavLink className="nav-item" eventKey="2" as={Link} to="/events">
             Events
           </NavLink>
         </Nav>

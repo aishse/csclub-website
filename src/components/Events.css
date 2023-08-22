@@ -1,0 +1,24 @@
+.event-container {
+
+   
+    height: 100vh;
+    width: 100vw;
+    
+    justify-content: center;
+    align-items: center;
+    background-image: url(/public/binarybckgrd.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.event-text-container {
+    position: absolute;
+    width: 100vw;
+    top: 30%;
+    font-family: "Inter", serif;
+    text-align: center;
+    color: #93C3DE;
+    font-size: 2vw;
+    background-color: transparent;
+}

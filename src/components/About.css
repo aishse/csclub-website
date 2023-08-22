@@ -1,12 +1,19 @@
 .About {
-    background-color: blue;
-  }
-.About-Container{
-  margin-top: 15%;
-  text-align: left;
-  margin-left: 5%;
-  margin-right: 5%;
+  animation: fadeIn ease-in 0.5s;
+
+  
 }
+
+.About-Container{
+  color: #93C3DE;
+  background-image: url(/public/binarybckgrd.png) ;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0%; }
+  100% { opacity: 100%; }
+}
+
 
 h1{
   font-size: 3vw;
@@ -19,6 +26,7 @@ h1{
 } */
 .second-half{
   margin-top: 18%;
+  
 }
 
 .main-image{
