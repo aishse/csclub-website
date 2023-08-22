@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/csclub-website/static/css/main.04aa024d.css",
+    "main.js": "/csclub-website/static/js/main.40b16a68.js",
+    "static/media/binarybckgrd.png": "/csclub-website/static/media/binarybckgrd.36bd78d18f310e912e99.png",
+    "index.html": "/csclub-website/index.html",
+    "main.04aa024d.css.map": "/csclub-website/static/css/main.04aa024d.css.map",
+    "main.40b16a68.js.map": "/csclub-website/static/js/main.40b16a68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04aa024d.css",
+    "static/js/main.40b16a68.js"
+  ]
+}
